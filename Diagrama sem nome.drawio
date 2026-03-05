@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.0">
+  <diagram name="Página-1" id="CQ4iQYz2AkIMlZAJI20S">
+    <mxGraphModel dx="1895" dy="2142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-10" edge="1" parent="1" source="nI-iL9YX1V3srcrtCWuw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#0B4D6A;" target="nI-iL9YX1V3srcrtCWuw-9" value="&lt;div&gt;Aciona&lt;/div&gt;&lt;div&gt;(GPIO 14)&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-13" edge="1" parent="1" source="nI-iL9YX1V3srcrtCWuw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0B4D6A;startArrow=classic;startFill=1;labelBackgroundColor=none;" target="nI-iL9YX1V3srcrtCWuw-11" value="Exibir informações&lt;br&gt;&lt;div&gt;(SPI)&amp;nbsp;&lt;/div&gt;&lt;div&gt;(GPIO 32,33,25,26)&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" value="&lt;div&gt;MCU&lt;/div&gt;(ESP32)" vertex="1">
+          <mxGeometry height="120" width="120" x="350" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" value="LiFePO4&lt;br&gt;(Bateria)" vertex="1">
+          <mxGeometry height="120" width="120" x="350" y="-230" as="geometry" />
+        </mxCell>
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-12" edge="1" parent="1" source="nI-iL9YX1V3srcrtCWuw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0B4D6A;labelBackgroundColor=none;" target="nI-iL9YX1V3srcrtCWuw-11" value="&lt;div&gt;Fornece&amp;nbsp;&lt;/div&gt;&lt;div&gt;3.3V&lt;/div&gt;Regulados">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" value="&lt;div&gt;Modulo&lt;/div&gt;&lt;div&gt;StepDown&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="370" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-7" edge="1" parent="1" source="nI-iL9YX1V3srcrtCWuw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0B4D6A;startArrow=classic;startFill=1;curved=1;" target="nI-iL9YX1V3srcrtCWuw-1" value="&lt;div&gt;Canal de comunicação&lt;/div&gt;&lt;div&gt;para leitura&lt;br&gt;(GPIO 13)&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" value="Sensor de temperatura" vertex="1">
+          <mxGeometry height="120" width="120" x="60" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-8" edge="1" parent="1" source="nI-iL9YX1V3srcrtCWuw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0B4D6A;labelBackgroundColor=none;" target="nI-iL9YX1V3srcrtCWuw-6" value="&#xa;&lt;div&gt;Fornece&lt;/div&gt;&lt;div&gt;3.3V&lt;/div&gt;&lt;div&gt;Regulados&lt;/div&gt;&#xa;&#xa;">
+          <mxGeometry relative="1" x="-0.2444" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-5" edge="1" parent="1" source="nI-iL9YX1V3srcrtCWuw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#0B4D6A;labelBackgroundColor=none;" target="nI-iL9YX1V3srcrtCWuw-1" value="&lt;div&gt;Fornece&lt;/div&gt;&lt;div&gt;3.3V&lt;/div&gt;&lt;div&gt;Regulados&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-4" edge="1" parent="1" source="nI-iL9YX1V3srcrtCWuw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0B4D6A;labelBackgroundColor=none;" target="nI-iL9YX1V3srcrtCWuw-3" value="Fornece energia">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" value="Buzzer" vertex="1">
+          <mxGeometry height="120" width="120" x="650" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nI-iL9YX1V3srcrtCWuw-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;" value="&lt;span&gt;LCD TFT&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="120" x="650" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
